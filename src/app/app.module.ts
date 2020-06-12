@@ -5,6 +5,7 @@ import { environment } from 'src/environments/environment';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoreModule } from './core/core.module';
 
 export function tokenGetter() {
   return localStorage.getItem("token");
@@ -15,6 +16,7 @@ export function tokenGetter() {
     AppComponent
   ],
   imports: [
+    CoreModule,
     BrowserModule,
     AppRoutingModule,
     JwtModule.forRoot({
