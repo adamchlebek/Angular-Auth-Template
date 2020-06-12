@@ -18,6 +18,14 @@
 - Server Applcation uses PassportJS as well as JWT.
 - You can easily add new Passport Strategies (Adding new strategies soon)
 
+## Getting Started
+
+- You will need to run the `npm i` script inside of the root folder, as well as the server folder. 
+- You will also need to create a `.env` file inside your server folder. It should look like this:
+```
+secret = INSERT_SECRET_HERE
+```
+
 
 ## Author
 
