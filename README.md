@@ -26,6 +26,10 @@
 secret = INSERT_SECRET_HERE
 ```
 
+## Development
+
+- In order to run the project locally, you will need to open two seperate command line windows. In one window, in the root folder, run `ng serve` to start the front end. You will also need to open up the server folder in your command line and run `npm run dev` in order to get the server up.
+
 
 ## Author
 
